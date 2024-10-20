@@ -127,7 +127,7 @@ function App() {
       {tokenId && (
         <div>
           <h2>QR Code for Token #{tokenId}</h2>
-          <QRCode value={`https://random-id.ngrok.io/token/${tokenId}`} />
+          <QRCode value={`https://nft-three.vercel.app/${tokenId}`} />
         </div>
       )}
 
